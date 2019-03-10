@@ -1,0 +1,35 @@
+#search-bar {
+    border-radius: 30px;
+    padding-left: 20px;
+    margin: 30px;
+    height: 40px;
+    width: 500px;
+}
+
+.main-container {
+    position: absolute;
+    top: 40px;
+    bottom: 40px;
+    width: 100%;
+}
+
+.header-container {
+    height: 40px;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+}
+
+.footer-container {
+    background-color: #f2f2f2;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
