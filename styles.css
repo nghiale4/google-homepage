@@ -15,9 +15,15 @@ html, body {
     border-style: solid;
     background-color: #ffffff;
     border-color: #dfe1e5;
-    margin: 30px;
     height: 40px;
-    width: 500px;
+    width: 400px;
+    overflow: auto; 
+    margin: auto;
+    position: absolute;
+    top: 100px; 
+    left: 0; 
+    bottom: 0; 
+    right: 0; 
 }
 
 .main-container {
@@ -26,6 +32,14 @@ html, body {
     bottom: 40px;
     width: 100%;
 }
+
+#logo {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    margin: -46px 0 0 -136px;
+}
+
 
 .header-container {
     height: 40px;
@@ -38,11 +52,29 @@ html, body {
 
 .header-container ul li {
     float: right;
-    padding: 13px 15px;
+    padding: 13px 8px;
+}
+
+.header-container ul li:first-child {
+    padding-left: 30px;
 }
 
 .header-container ul li:nth-child(4) {
     padding: 6.5px;
+}
+
+.header-container ul li:nth-child(3) {
+    padding: 6.5px;
+    padding-left: 8px;
+    padding-right: 30px;
+}
+
+#sign-on-button {
+    background-color: #4386f8;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 5px 12px;
 }
 
 ul {
@@ -63,6 +95,14 @@ li{
     bottom: 0;
 }
 
+.footer-container ul li:first-child {
+    padding-left: 30px;
+}
+
+.footer-container ul li:nth-child(3) {
+    padding-right: 30px;
+}
+
 .footer-container ul li:nth-child(-n+2) {
     float:left;
 }
@@ -80,3 +120,4 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
